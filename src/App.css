@@ -1,0 +1,54 @@
+h1{
+  padding: 10px;
+  color:#2d3436; /*Space grey */
+}
+
+h2{
+  text-align: center;
+  color:#2d3436; /*Space grey */
+}
+
+body{
+  font-family: 'Roboto', sans-serif;
+}
+
+button{
+  margin-right: 5px;
+  margin-left: 5px;
+  margin-top: 5px;
+}
+
+img{
+  width: 350px;
+  margin-top: 20px;
+  box-shadow: 0 0 2px 0 rgba(0,0,0,.92);
+}
+
+.container{
+  text-align: center;
+  margin: auto;
+}
+
+.img-container{
+  height: 300px;
+  display: table;
+  margin: 0 auto;
+}
+
+#buttonRandom{
+  margin-top: 1em;
+  margin-bottom: 1em;
+}
+
+/*Used to make fullscreen div & keep bgColor state change working
+https://css-tricks.com/perfect-full-page-background-image/ */
+.backgroundFix {
+  min-height: 100%;
+  min-width: 1024px;
+  width: 100%;
+  height: auto;
+  position: fixed;
+  top: 0;
+  left: 0;
+  z-index: -1;
+}
